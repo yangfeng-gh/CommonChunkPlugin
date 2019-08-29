@@ -1,0 +1,27 @@
+{
+  "name": "common-chunk-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && webpack",
+    "build2": "rimraf dist && webpack --config webpack.config2.js",
+    "build3": "rimraf dist && webpack --config webpack.config3.js",
+    "build4": "rimraf dist && webpack --config webpack.config4.js",
+    "build5": "rimraf dist && webpack --config webpack.config5.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-dev-server": "^2.10.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
